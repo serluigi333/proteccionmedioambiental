@@ -125,13 +125,44 @@ footer{
 </section>
 
 <section class="card">
-  <h2>Relación con la tecnología</h2>
+  <h2>Tipos de contaminación</h2>
+  
+  <h3>Contaminación del aire</h3>
   <p>
-    La fabricación de dispositivos electrónicos requiere minerales,
-    energía y procesos industriales que generan emisiones contaminantes.
-    Además, el consumo de electricidad de los dispositivos también
-    contribuye al impacto ambiental.
+    La quema de combustibles fósiles en fábricas, automóviles y centrales eléctricas libera gases tóxicos como CO₂, NO₂ y SO₂, que afectan la salud humana y contribuyen al cambio climático.
   </p>
+  <img src="img/aire_contaminado.jpg" alt="Contaminación del aire">
+  
+  <h3>Contaminación del agua</h3>
+  <p>
+    Los desechos industriales y productos químicos llegan a ríos y océanos, dañando ecosistemas acuáticos y afectando la vida de plantas y animales.
+  </p>
+  <img src="img/agua_contaminada.jpg" alt="Contaminación del agua">
+  
+  <h3>Contaminación del suelo</h3>
+  <p>
+    La acumulación de residuos electrónicos, plásticos y químicos en el suelo reduce la fertilidad y puede afectar la salud humana y animal.
+  </p>
+  <img src="img/suelo_contaminado.jpg" alt="Contaminación del suelo">
+</section>
+
+<section class="card">
+  <h2>Relación con la tecnología 💻</h2>
+  <p>
+    La fabricación de dispositivos electrónicos requiere minerales, energía y procesos industriales que generan emisiones contaminantes. Además, el consumo eléctrico de estos aparatos también contribuye al impacto ambiental.
+  </p>
+  <img src="img/tecnologia_contaminacion.jpg" alt="Tecnología y contaminación">
+</section>
+
+<section class="card">
+  <h2>Cómo reducir la contaminación tecnológica</h2>
+  <ul>
+    <li>Comprar dispositivos duraderos y eficientes energéticamente.</li>
+    <li>Reciclar ordenadores, móviles y otros aparatos electrónicos.</li>
+    <li>Reducir la generación de residuos plásticos en casa y en la oficina.</li>
+    <li>Favorecer el uso de energía renovable para alimentar tus dispositivos.</li>
+  </ul>
+  <img src="img/reducir_contaminacion.jpg" alt="Reducir contaminación">
 </section>
 
 </main>
