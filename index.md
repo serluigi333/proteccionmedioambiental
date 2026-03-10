@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -13,16 +12,42 @@ margin:0;
 background:#f4f7f6;
 }
 
-/* HEADER */
-
-header{
-background:linear-gradient(135deg,#2e8b57,#3cb371);
-color:white;
-padding:40px;
+.hero{
+height:60vh;
+background-image:url('img/eco.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
 text-align:center;
+color:white;
+position:relative;
 }
 
-/* MENÚ */
+.hero::after{
+content:"";
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,0.45);
+}
+
+.hero-content{
+position:relative;
+z-index:1;
+}
+
+.hero h1{
+font-size:48px;
+margin:0;
+}
+
+.hero p{
+font-size:20px;
+}
 
 nav{
 background:#222;
@@ -40,23 +65,17 @@ border-radius:6px;
 transition:all 0.3s ease;
 }
 
-/* EFECTO HOVER EN MENÚ */
-
 nav a:hover{
 background:#7CFC00;
 color:#000;
 transform:scale(1.1);
 }
 
-/* CONTENIDO */
-
 main{
 max-width:1000px;
 margin:auto;
 padding:20px;
 }
-
-/* TARJETAS */
 
 .card{
 background:white;
@@ -65,52 +84,39 @@ margin:20px 0;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 transition:all 0.3s ease;
+animation:fadein 1s;
 }
-
-/* EFECTO HOVER TARJETAS */
 
 .card:hover{
 transform:translateY(-8px);
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* IMÁGENES */
-
-img{
-width:100%;
-max-width:500px;
-display:block;
-margin:auto;
-border-radius:8px;
-transition:transform 0.4s ease, box-shadow 0.4s ease;
+.temas{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:30px;
 }
 
-/* EFECTO HOVER IMÁGENES */
-
-img:hover{
-transform:scale(1.05);
-box-shadow:0 10px 25px rgba(0,0,0,0.3);
-}
-
-/* BOTONES */
-
-button{
-background:#2e8b57;
-color:white;
-border:none;
-padding:12px 20px;
-border-radius:6px;
-cursor:pointer;
-font-size:16px;
+.tema{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 transition:all 0.3s ease;
 }
 
-button:hover{
-background:#3cb371;
-transform:scale(1.1);
+.tema:hover{
+transform:scale(1.05);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* FOOTER */
+.icono{
+font-size:40px;
+margin-bottom:10px;
+}
 
 footer{
 background:#111;
@@ -120,15 +126,9 @@ padding:20px;
 margin-top:30px;
 }
 
-/* ANIMACIÓN AL CARGAR */
-
 @keyframes fadein{
-from{opacity:0; transform:translateY(20px);}
-to{opacity:1; transform:translateY(0);}
-}
-
-.card{
-animation:fadein 1s;
+from{opacity:0; transform:translateY(20px);} 
+to{opacity:1; transform:translateY(0);} 
 }
 
 </style>
@@ -137,10 +137,12 @@ animation:fadein 1s;
 
 <body>
 
-<header>
+<div class="hero">
+<div class="hero-content">
 <h1>🌍 Informática y Protección Medioambiental</h1>
-<p>El impacto de la tecnología en el planeta</p>
-</header>
+<p>Cómo la tecnología afecta al planeta</p>
+</div>
+</div>
 
 <nav>
 <a href="index.html">Inicio</a>
@@ -155,60 +157,49 @@ animation:fadein 1s;
 
 <section class="card">
 <h2>Introducción</h2>
-
-<p>
-La informática forma parte de nuestra vida diaria. Utilizamos ordenadores,
-teléfonos móviles, tablets y muchos otros dispositivos para trabajar,
-estudiar y comunicarnos.
-</p>
-
-<p>
-Sin embargo, la producción de estos dispositivos requiere recursos
-naturales, energía y procesos industriales que pueden generar contaminación
-y residuos electrónicos. Por esta razón es importante analizar cómo la
-tecnología afecta al medio ambiente.
-</p>
-
-<img src="img/eco.jpg" alt="Tecnología sostenible">
-
+<p>La informática forma parte de nuestra vida diaria. Utilizamos ordenadores, teléfonos móviles y muchos dispositivos electrónicos para trabajar, estudiar y comunicarnos. Sin embargo, la producción y el uso de estos dispositivos puede generar contaminación y residuos tecnológicos.</p>
+<p>Este proyecto analiza el impacto de la tecnología en el medio ambiente y muestra posibles soluciones para un uso más sostenible.</p>
 </section>
 
 <section class="card">
+<h2>Temas del proyecto</h2>
 
-<h2>Objetivo del proyecto</h2>
+<div class="temas">
 
-<ul>
-<li>Comprender qué es la contaminación ambiental</li>
-<li>Analizar el problema de los residuos electrónicos</li>
-<li>Explicar la obsolescencia programada</li>
-<li>Conocer qué es la informática ecológica</li>
-</ul>
+<div class="tema">
+<div class="icono">🏭</div>
+<h3>Contaminación ambiental</h3>
+<p>Impacto de las actividades humanas y tecnológicas en el medio ambiente.</p>
+</div>
 
-</section>
+<div class="tema">
+<div class="icono">💻</div>
+<h3>Residuos informáticos</h3>
+<p>Dispositivos electrónicos que se desechan y generan contaminación.</p>
+</div>
 
-<section class="card">
+<div class="tema">
+<div class="icono">⏳</div>
+<h3>Obsolescencia programada</h3>
+<p>Productos diseñados para durar menos tiempo y fomentar el consumo.</p>
+</div>
 
-<h2>¿Por qué es importante?</h2>
+<div class="tema">
+<div class="icono">🌱</div>
+<h3>Informática ecológica</h3>
+<p>Uso de tecnología eficiente y sostenible para reducir el impacto ambiental.</p>
+</div>
 
-<p>
-El uso responsable de la tecnología puede ayudar a reducir el impacto
-ambiental. Reciclar dispositivos, alargar su vida útil y utilizar
-equipos eficientes energéticamente son algunas de las medidas que
-contribuyen a proteger el medio ambiente.
-</p>
-
-<button>Más información</button>
+</div>
 
 </section>
 
 </main>
 
 <footer>
-
 <p>Proyecto educativo de informática</p>
-<p>Autores: Sergio Martín Julio Guitierrez y Juan Jose </p>
+<p>Autores: (Nombre del grupo)</p>
 <p>2026</p>
-
 </footer>
 
 </body>
