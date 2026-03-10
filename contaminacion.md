@@ -106,10 +106,10 @@ footer{
 </header>
 
 <nav>
-  <a href="index.md">Inicio</a>
-  <a href="residuos.md">Residuos</a>
-  <a href="obsolescencia.md">Obsolescencia</a>
-  <a href="informatica-ecologica.md">Informática ecológica</a>
+  <a href="index.html">Inicio</a>
+  <a href="residuos.html">Residuos</a>
+  <a href="obsolescencia.html">Obsolescencia</a>
+  <a href="informatica-ecologica.html">Informática ecológica</a>
 </nav>
 
 <main>
