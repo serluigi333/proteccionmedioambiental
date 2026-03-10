@@ -162,12 +162,12 @@ margin-top:30px;
 </div>
 
 <nav>
-<a href="index.md">Inicio</a>
-<a href="contaminacion.md">Contaminación</a>
-<a href="residuos.md">Residuos informáticos</a>
-<a href="obsolescencia.md">Obsolescencia</a>
-<a href="informatica-ecologica.md">Informática ecológica</a>
-<a href="referencias.md">Referencias</a>
+<a href="index.html">Inicio</a>
+<a href="contaminacion.html">Contaminación</a>
+<a href="residuos.html">Residuos informáticos</a>
+<a href="obsolescencia.html">Obsolescencia</a>
+<a href="informatica-ecologica.html">Informática ecológica</a>
+<a href="referencias.html">Referencias</a>
 </nav>
 
 <main>
