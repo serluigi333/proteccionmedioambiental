@@ -4,6 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Informática y Medio Ambiente</title>
 
+<!-- ICONOS PROFESIONALES -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 
 body{
@@ -12,8 +15,9 @@ margin:0;
 background:#f4f7f6;
 }
 
+/* HERO PORTADA */
 .hero{
-height:60vh;
+height:65vh;
 background-image:url('img/eco.jpg');
 background-size:cover;
 background-position:center;
@@ -41,14 +45,15 @@ z-index:1;
 }
 
 .hero h1{
-font-size:48px;
-margin:0;
+font-size:50px;
+margin-bottom:10px;
 }
 
 .hero p{
 font-size:20px;
 }
 
+/* MENÚ */
 nav{
 background:#222;
 padding:12px;
@@ -71,12 +76,14 @@ color:#000;
 transform:scale(1.1);
 }
 
+/* CONTENIDO */
 main{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 padding:20px;
 }
 
+/* TARJETAS */
 .card{
 background:white;
 padding:25px;
@@ -84,7 +91,13 @@ margin:20px 0;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 transition:all 0.3s ease;
-animation:fadein 1s;
+opacity:0;
+transform:translateY(30px);
+}
+
+.card.show{
+opacity:1;
+transform:translateY(0);
 }
 
 .card:hover{
@@ -92,32 +105,42 @@ transform:translateY(-8px);
 box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
+/* GRID TEMAS */
 .temas{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
 margin-top:30px;
 }
 
 .tema{
 background:white;
-padding:20px;
-border-radius:10px;
+padding:25px;
+border-radius:12px;
 text-align:center;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
-transition:all 0.3s ease;
+transition:all 0.35s ease;
+cursor:pointer;
+text-decoration:none;
+color:#333;
 }
 
 .tema:hover{
-transform:scale(1.05);
-box-shadow:0 10px 20px rgba(0,0,0,0.2);
+transform:translateY(-10px) scale(1.05);
+box-shadow:0 12px 25px rgba(0,0,0,0.25);
 }
 
-.icono{
+.tema i{
 font-size:40px;
+margin-bottom:15px;
+color:#2e8b57;
+}
+
+.tema h3{
 margin-bottom:10px;
 }
 
+/* FOOTER */
 footer{
 background:#111;
 color:white;
@@ -126,13 +149,7 @@ padding:20px;
 margin-top:30px;
 }
 
-@keyframes fadein{
-from{opacity:0; transform:translateY(20px);} 
-to{opacity:1; transform:translateY(0);} 
-}
-
 </style>
-
 </head>
 
 <body>
@@ -140,7 +157,7 @@ to{opacity:1; transform:translateY(0);}
 <div class="hero">
 <div class="hero-content">
 <h1>🌍 Informática y Protección Medioambiental</h1>
-<p>Cómo la tecnología afecta al planeta</p>
+<p>El impacto de la tecnología en el planeta</p>
 </div>
 </div>
 
@@ -157,8 +174,14 @@ to{opacity:1; transform:translateY(0);}
 
 <section class="card">
 <h2>Introducción</h2>
-<p>La informática forma parte de nuestra vida diaria. Utilizamos ordenadores, teléfonos móviles y muchos dispositivos electrónicos para trabajar, estudiar y comunicarnos. Sin embargo, la producción y el uso de estos dispositivos puede generar contaminación y residuos tecnológicos.</p>
-<p>Este proyecto analiza el impacto de la tecnología en el medio ambiente y muestra posibles soluciones para un uso más sostenible.</p>
+<p>
+La informática forma parte de nuestra vida diaria. Utilizamos ordenadores, teléfonos móviles y otros dispositivos electrónicos para estudiar, trabajar y comunicarnos.
+</p>
+
+<p>
+Sin embargo, la fabricación de estos dispositivos requiere recursos naturales y energía, lo que puede generar contaminación y residuos tecnológicos. Por ello es importante estudiar cómo la tecnología afecta al medio ambiente.
+</p>
+
 </section>
 
 <section class="card">
@@ -166,29 +189,29 @@ to{opacity:1; transform:translateY(0);}
 
 <div class="temas">
 
-<div class="tema">
-<div class="icono">🏭</div>
+<a class="tema" href="contaminacion.md">
+<i class="fa-solid fa-industry"></i>
 <h3>Contaminación ambiental</h3>
-<p>Impacto de las actividades humanas y tecnológicas en el medio ambiente.</p>
-</div>
+<p>Impacto de las actividades humanas y tecnológicas en el planeta.</p>
+</a>
 
-<div class="tema">
-<div class="icono">💻</div>
+<a class="tema" href="residuos.md">
+<i class="fa-solid fa-computer"></i>
 <h3>Residuos informáticos</h3>
-<p>Dispositivos electrónicos que se desechan y generan contaminación.</p>
-</div>
+<p>Dispositivos electrónicos desechados que generan contaminación.</p>
+</a>
 
-<div class="tema">
-<div class="icono">⏳</div>
+<a class="tema" href="obsolescencia.md">
+<i class="fa-solid fa-hourglass-half"></i>
 <h3>Obsolescencia programada</h3>
-<p>Productos diseñados para durar menos tiempo y fomentar el consumo.</p>
-</div>
+<p>Productos diseñados para durar menos tiempo.</p>
+</a>
 
-<div class="tema">
-<div class="icono">🌱</div>
+<a class="tema" href="informatica-ecologica.md">
+<i class="fa-solid fa-leaf"></i>
 <h3>Informática ecológica</h3>
-<p>Uso de tecnología eficiente y sostenible para reducir el impacto ambiental.</p>
-</div>
+<p>Tecnología eficiente y sostenible.</p>
+</a>
 
 </div>
 
@@ -197,10 +220,27 @@ to{opacity:1; transform:translateY(0);}
 </main>
 
 <footer>
-<p>Proyecto educativo de informática</p>
+<p>Proyecto de Informática y Medio Ambiente</p>
 <p>Autores: (Nombre del grupo)</p>
 <p>2026</p>
 </footer>
+
+<!-- ANIMACIÓN AL HACER SCROLL -->
+<script>
+
+const observer = new IntersectionObserver(entries => {
+ entries.forEach(entry => {
+  if(entry.isIntersecting){
+   entry.target.classList.add('show');
+  }
+ });
+});
+
+const elements = document.querySelectorAll('.card');
+
+elements.forEach(el => observer.observe(el));
+
+</script>
 
 </body>
 </html>
