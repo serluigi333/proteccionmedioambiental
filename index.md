@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Seguridad en el Trabajo
+title: Protección Medioambiental
 ---
 
 <style>
@@ -104,10 +104,10 @@ title: Seguridad en el Trabajo
 
 <div class="retraso-1">
 
-# 🛡️ Proyecto 2: Seguridad en el Trabajo
+# Proyecto 1: Protección Medioambiental
 
 <div class="caja-animada">
-  <strong>Objetivo del Proyecto:</strong> En este espacio analizaremos la salud laboral desde el punto de vista del sector informático. Exploraremos cuáles son los riesgos reales de pasar horas frente a una pantalla (ergonómicos, visuales y psicosociales) y, lo más importante, qué medidas de prevención debemos aplicar en nuestro entorno de trabajo para evitarlos.
+  <strong>Objetivo del Proyecto:</strong> En este espacio analizaremos el impacto crítico de la tecnología en nuestro planeta. Exploraremos qué es la contaminación ambiental, cómo nos ahogan los residuos informáticos, la trampa de la obsolescencia programada y cómo la informática ecológica es nuestra mejor herramienta para un futuro sostenible.
 </div>
 
 </div>
@@ -115,6 +115,7 @@ title: Seguridad en el Trabajo
 <div class="retraso-2" markdown="1">
 
 ## Criterios de Calificación
+
 
 | Nº | Criterio | Puntuación |
 |----|----------|------------|
@@ -130,16 +131,16 @@ title: Seguridad en el Trabajo
 
 ---
 
-## Índice Principal
+## Índice Secundario
 
 Selecciona el apartado que deseas explorar:
 
 <div class="grid-indice retraso-4">
-  <a href="riesgos-fisicos.html" class="btn-magico">1. Riesgos físicos y ergonómicos</a>
-  <a href="riesgos-entorno.html" class="btn-magico">2. Riesgos del entorno (eléctricos)</a>
-  <a href="riesgos-psicosociales.html" class="btn-magico">3. Riesgos psicosociales (estrés)</a>
-  <a href="prevencion.html" class="btn-magico">4. Medidas de prevención</a>
-  <a href="referencias-autores.html" class="btn-magico">5. Referencias y Autores</a>
+  <a href="contaminacion.html" class="btn-magico">1. ¿Qué es la contaminación ambiental?</a>
+  <a href="residuos.html" class="btn-magico">2. Residuos informáticos</a>
+  <a href="obsolescencia.html" class="btn-magico">3. Obsolescencia programada</a>
+  <a href="ecologica.html" class="btn-magico">4. Informática ecológica</a>
+  <a href="referencias_autores.html" class="btn-magico">5. Referencias y Autores</a>
 </div>
 
 ---
