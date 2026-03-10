@@ -18,7 +18,7 @@ background:#f4f7f6;
 /* HERO PORTADA */
 .hero{
 height:65vh;
-background-image:url('img/eco.jpg');
+background-image:url('images.jpeg');
 background-size:cover;
 background-position:center;
 display:flex;
