@@ -207,7 +207,7 @@ contribuyen a proteger el medio ambiente.
 <footer>
 
 <p>Proyecto educativo de informática</p>
-<p>Autores: (Nombre del grupo)</p>
+<p>Autores: Sergio Martín Julio Guitierrez y Juan Jose </p>
 <p>2026</p>
 
 </footer>
