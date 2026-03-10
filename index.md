@@ -60,7 +60,7 @@ body {
 /* HERO PORTADA */
 .hero {
   height: 50vh;
-  background-image: url('img/eco.jpg');
+  background-image: url('images.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
