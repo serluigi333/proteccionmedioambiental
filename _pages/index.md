@@ -1,7 +1,8 @@
 ---
+title: Contaminación ambiental
 layout: default
-title: Protección Medioambiental
 ---
+# Contaminación ambiental
 
 <style>
   /* --- ANIMACIONES AVANZADAS --- */
