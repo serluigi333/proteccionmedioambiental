@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Obsolescencia Programada</title>
+<title>Residuos Informáticos</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -18,7 +18,7 @@ background:#f4f7f6;
 /* HERO */
 .hero{
 height:50vh;
-background-image:url('obsolescencia.jpg');
+background-image:url('residuos.jpg');
 background-size:cover;
 background-position:center;
 display:flex;
@@ -53,7 +53,7 @@ margin-bottom:10px;
 font-size:18px;
 }
 
-/* MENU */
+/* MENÚ */
 nav{
 background:#222;
 padding:12px;
@@ -110,7 +110,6 @@ margin-bottom:10px;
 color:#2e8b57;
 }
 
-/* LISTAS */
 ul{
 line-height:1.7;
 }
@@ -131,8 +130,8 @@ margin-top:30px;
 
 <div class="hero">
 <div class="hero-content">
-<h1>⏳ Obsolescencia Programada</h1>
-<p>Cuando la tecnología está diseñada para durar menos</p>
+<h1>💻 Residuos Informáticos</h1>
+<p>El problema de la basura electrónica</p>
 </div>
 </div>
 
@@ -148,56 +147,55 @@ margin-top:30px;
 <main>
 
 <section class="card">
-<h2>¿Qué es la obsolescencia programada?</h2>
+<h2>¿Qué son los residuos informáticos?</h2>
 
 <p>
-La obsolescencia programada es una estrategia utilizada por algunas empresas para diseñar productos con una vida útil limitada.
-Esto significa que los dispositivos dejan de funcionar correctamente o se vuelven obsoletos después de cierto tiempo.
+Los residuos informáticos, también conocidos como basura electrónica o e-waste, son los dispositivos electrónicos que han sido desechados porque ya no funcionan o han quedado obsoletos.
 </p>
 
 <p>
-En el ámbito de la informática y la tecnología esto ocurre con ordenadores, teléfonos móviles, impresoras y otros dispositivos electrónicos.
+Entre ellos se encuentran ordenadores, teléfonos móviles, impresoras, teclados, monitores y otros aparatos tecnológicos.
 </p>
 
 </section>
 
 <section class="card">
-<h2>Tipos de obsolescencia</h2>
+<h2>Ejemplos de residuos informáticos</h2>
 
 <ul>
-<li><strong>Obsolescencia técnica:</strong> el dispositivo deja de funcionar por fallos o desgaste.</li>
-
-<li><strong>Obsolescencia de software:</strong> los programas o sistemas dejan de recibir actualizaciones.</li>
-
-<li><strong>Obsolescencia psicológica:</strong> los consumidores cambian de producto porque aparece uno más moderno.</li>
+<li>Ordenadores y portátiles antiguos.</li>
+<li>Teléfonos móviles que ya no se utilizan.</li>
+<li>Monitores y televisores.</li>
+<li>Impresoras y escáneres.</li>
+<li>Teclados, ratones y cables.</li>
 </ul>
 
 </section>
 
 <section class="card">
-<h2>Consecuencias para el medio ambiente</h2>
+<h2>Impacto en el medio ambiente</h2>
 
 <p>
-La obsolescencia programada tiene un impacto negativo en el medio ambiente porque provoca un aumento del consumo y de los residuos electrónicos.
+Los residuos electrónicos pueden ser muy peligrosos para el medio ambiente porque contienen materiales tóxicos como plomo, mercurio y cadmio.
 </p>
 
 <ul>
-<li>Mayor cantidad de basura tecnológica.</li>
-<li>Uso excesivo de recursos naturales.</li>
-<li>Contaminación por materiales tóxicos.</li>
-<li>Mayor gasto energético en la fabricación de nuevos dispositivos.</li>
+<li>Contaminación del suelo.</li>
+<li>Contaminación del agua.</li>
+<li>Daños en la salud de las personas.</li>
+<li>Acumulación de basura tecnológica.</li>
 </ul>
 
 </section>
 
 <section class="card">
-<h2>¿Cómo podemos reducirla?</h2>
+<h2>Cómo reducir los residuos electrónicos</h2>
 
 <ul>
-<li>Reparar los dispositivos en lugar de reemplazarlos.</li>
-<li>Comprar productos de mayor calidad y duración.</li>
-<li>Actualizar software cuando sea posible.</li>
-<li>Reciclar correctamente los dispositivos electrónicos.</li>
+<li>Reutilizar los dispositivos cuando sea posible.</li>
+<li>Reparar equipos en lugar de tirarlos.</li>
+<li>Donar dispositivos que todavía funcionen.</li>
+<li>Reciclar los aparatos electrónicos en puntos de reciclaje.</li>
 </ul>
 
 </section>
