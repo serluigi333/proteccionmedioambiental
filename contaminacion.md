@@ -3,7 +3,7 @@ layout: default
 title: 1. Contaminación Ambiental
 ---
 
-# <span style="color: #00f2ff;">4. Informática Verde: Hacia un Futuro Sostenible 🌿</span>
+# <span style="color: #00f2ff;">4. La Contaminación Ambiental en la Era Digital</span>
 
 > **Autor:** <span style="color: #00f2ff; font-weight: bold;">Sergio</span>  
 > **Estado:** Finalizado ✅
