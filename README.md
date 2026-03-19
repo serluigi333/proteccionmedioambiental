@@ -1,4 +1,4 @@
-# <p align="center">🌍 Proyecto: Informática Ambiental</p>
+# 🌍 Proyecto: Informática Ambiental
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versión-1.0.0-blue?style=for-the-badge" alt="Version">
@@ -21,13 +21,13 @@ Este proyecto ha sido desarrollado de forma colaborativa siguiendo los criterios
 ## 📑 Índice de Contenidos
 Haz clic en los enlaces para acceder al desarrollo detallado de cada apartado:
 
-1.  **[¿Qué es la contaminación ambiental?](./_pages/contaminacion.md)**
+1.  **[¿Qué es la contaminación ambiental?](/_pages/contaminacion.md)**
     * Definición, huella de carbono y extracción de recursos.
-2.  **[Residuos Informáticos (E-Waste)](./_pages/residuos.md)**
+2.  **[Residuos Informáticos (E-Waste)](/_pages/residuos.md)**
     * Gestión de desechos y componentes tóxicos.
-3.  **[Obsolescencia Programada](./_pages/obsolescencia.md)**
+3.  **[Obsolescencia Programada](/_pages/obsolescencia.md)**
     * Tipos de obsolescencia y su impacto en el consumo.
-4.  **[Informática Ecológica (Green Computing)](./_pages/informatica_ecologica.md)**
+4.  **[Informática Ecológica (Green Computing)](/_pages/informatica_ecologica.md)**
     * Estrategias de sostenibilidad y certificaciones verdes.
 
 ---
