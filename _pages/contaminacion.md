@@ -20,7 +20,6 @@ Aunque no siempre lo vemos, el uso de dispositivos digitales genera tres tipos d
 
 ### 1. Contaminación por Emisiones (Huella de Carbono)
 Los centros de datos que alojan la "nube" requieren una refrigeración constante.
-> [!IMPORTANT]
 > Se estima que para el año 2030, las Tecnologías de la Información y Comunicación (TIC) podrían consumir hasta el **20% de la energía eléctrica mundial**.
 
 ### 2. Contaminación Electromagnética
