@@ -3,6 +3,8 @@
 ---
 
 ## 📋 Índice
+* Esta línea será reemplazada por el índice automático
+{:toc}
 1. [¿Qué es la contaminación ambiental?](#-qué-es-la-contaminación-ambiental)
 2. [Residuos Informáticos (e-Waste)](#-residuos-informáticos-e-waste)
 3. [Obsolescencia Programada](#-obsolescencia-programada)
