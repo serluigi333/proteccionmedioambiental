@@ -1,191 +1,69 @@
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Contaminación ambiental</title>
+# <p align="center">🌍 1. ¿Qué es la Contaminación Ambiental?</p>
 
-<!-- ESTILO INTERNO COHERENTE -->
-<style>
-body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  background:#f4f7f6;
-}
+<p align="center">
+  <img src="https://img.shields.io/badge/Estado-Investigación_Activa-green?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Categoría-Impacto_Digital-blue?style=for-the-badge" alt="Category">
+</p>
 
-/* HEADER */
-header{
-  background:linear-gradient(135deg,#2e8b57,#3cb371);
-  color:white;
-  padding:40px;
-  text-align:center;
-}
+---
 
-/* MENÚ */
-nav{
-  background:#222;
-  padding:12px;
-  text-align:center;
-}
+## 📘 Definición y Contexto
+La **contaminación ambiental** es la alteración nociva del estado natural de un medio como consecuencia de la introducción de un agente ajeno a ese medio (contaminante), causando inestabilidad, desorden, daño o malestar en un ecosistema.
 
-nav a{
-  color:white;
-  margin:10px;
-  text-decoration:none;
-  font-weight:bold;
-  padding:8px 14px;
-  border-radius:6px;
-  transition:all 0.3s ease;
-}
+En la era de la **Informática Ambiental**, este concepto se extiende más allá del humo de las fábricas; abarca el ciclo de vida completo de la tecnología, desde la mina hasta el vertedero.
 
-nav a:hover{
-  background:#7CFC00;
-  color:#000;
-  transform:scale(1.1);
-}
+---
 
-/* CONTENIDO */
-main{
-  max-width:1000px;
-  margin:auto;
-  padding:20px;
-}
+## ⚡ El Impacto Invisible de la Tecnología
 
-/* TARJETAS */
-.card{
-  background:white;
-  padding:25px;
-  margin:20px 0;
-  border-radius:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.1);
-  transition:all 0.3s ease;
-  opacity:0;
-  transform:translateY(30px);
-}
+Aunque no siempre lo vemos, el uso de dispositivos digitales genera tres tipos de contaminación crítica:
 
-.card.show{
-  opacity:1;
-  transform:translateY(0);
-}
+### 1. Contaminación por Emisiones (Huella de Carbono)
+Los centros de datos que alojan la "nube" requieren una refrigeración constante.
+> [!IMPORTANT]
+> Se estima que para el año 2030, las Tecnologías de la Información y Comunicación (TIC) podrían consumir hasta el **20% de la energía eléctrica mundial**.
 
-.card:hover{
-  transform:translateY(-8px);
-  box-shadow:0 10px 25px rgba(0,0,0,0.2);
-}
+### 2. Contaminación Electromagnética
+La proliferación de redes Wi-Fi, 5G y dispositivos Bluetooth genera una "sopa electromagnética" cuyos efectos a largo plazo en la biodiversidad siguen bajo estudio.
 
-/* IMÁGENES */
-img{
-  width:100%;
-  max-width:500px;
-  display:block;
-  margin:auto;
-  border-radius:8px;
-  transition:transform 0.4s ease, box-shadow 0.4s ease;
-}
+### 3. Contaminación por Extracción
+La fabricación de un solo ordenador requiere:
+* **240 kg** de combustibles fósiles.
+* **22 kg** de productos químicos.
+* **1.5 toneladas** de agua.
 
-img:hover{
-  transform:scale(1.05);
-  box-shadow:0 10px 25px rgba(0,0,0,0.3);
-}
+---
 
-/* FOOTER */
-footer{
-  background:#111;
-  color:white;
-  text-align:center;
-  padding:20px;
-  margin-top:30px;
-}
-</style>
+## 📊 Comparativa de Impacto Ambiental
 
-</head>
+| Sector | Contribución CO2 (%) | Tipo de Residuo Dominante |
+| :--- | :---: | :--- |
+| **Transporte Aéreo** | 2.5% | Gases de combustión |
+| **Sector TIC (Digital)** | 3.7% | E-waste y Calor |
+| **Industria Pesada** | 12.0% | Químicos y Metales |
 
-<body>
+---
 
-<header>
-  <h1>Contaminación ambiental</h1>
-  <p>Impacto de la tecnología en el medio ambiente</p>
-</header>
+## 🖼️ Galería Visual de Impacto
 
-<nav>
-  <a href="index.html">Inicio</a>
-  <a href="residuos.html">Residuos</a>
-  <a href="obsolescencia.html">Obsolescencia</a>
-  <a href="informatica-ecologica.html">Informática ecológica</a>
-</nav>
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=500" width="45%" alt="Minería de Litio">
+  <img src="https://images.unsplash.com/photo-1536619493521-1ba5d2c25532?auto=format&fit=crop&q=80&w=500" width="45%" alt="Centro de Datos">
+  <p><i>Izquierda: Extracción de materiales. Derecha: Consumo energético masivo en servidores.</i></p>
+</div>
 
-<main>
+---
 
-<section class="card">
-  <h2>¿Qué es la contaminación ambiental?</h2>
-  <p>
-    La contaminación ambiental es la presencia de sustancias o actividades
-    que dañan el medio ambiente. Puede afectar al aire, al agua y al suelo.
-    Las actividades humanas son la principal causa de este problema.
-  </p>
-  <img src="img/contaminacion.jpg" alt="Contaminación ambiental">
-</section>
+## 🛠️ Estilo y Formato (CSS "Hack" para GitHub)
 
-<section class="card">
-  <h2>Tipos de contaminación</h2>
-  
-  <h3>Contaminación del aire</h3>
-  <p>
-    La quema de combustibles fósiles en fábricas, automóviles y centrales eléctricas libera gases tóxicos como CO₂, NO₂ y SO₂, que afectan la salud humana y contribuyen al cambio climático.
-  </p>
-  <img src="img/aire_contaminado.jpg" alt="Contaminación del aire">
-  
-  <h3>Contaminación del agua</h3>
-  <p>
-    Los desechos industriales y productos químicos llegan a ríos y océanos, dañando ecosistemas acuáticos y afectando la vida de plantas y animales.
-  </p>
-  <img src="img/agua_contaminada.jpg" alt="Contaminación del agua">
-  
-  <h3>Contaminación del suelo</h3>
-  <p>
-    La acumulación de residuos electrónicos, plásticos y químicos en el suelo reduce la fertilidad y puede afectar la salud humana y animal.
-  </p>
-  <img src="img/suelo_contaminado.jpg" alt="Contaminación del suelo">
-</section>
+Aunque GitHub no permite archivos `.css` externos por seguridad, podemos usar **HTML inline** para forzar estilos profesionales:
 
-<section class="card">
-  <h2>Relación con la tecnología 💻</h2>
-  <p>
-    La fabricación de dispositivos electrónicos requiere minerales, energía y procesos industriales que generan emisiones contaminantes. Además, el consumo eléctrico de estos aparatos también contribuye al impacto ambiental.
-  </p>
-  <img src="img/tecnologia_contaminacion.jpg" alt="Tecnología y contaminación">
-</section>
+<details>
+<summary><b>✨ Ver detalles técnicos de formato aplicado</b></summary>
 
-<section class="card">
-  <h2>Cómo reducir la contaminación tecnológica</h2>
-  <ul>
-    <li>Comprar dispositivos duraderos y eficientes energéticamente.</li>
-    <li>Reciclar ordenadores, móviles y otros aparatos electrónicos.</li>
-    <li>Reducir la generación de residuos plásticos en casa y en la oficina.</li>
-    <li>Favorecer el uso de energía renovable para alimentar tus dispositivos.</li>
-  </ul>
-  <img src="img/reducir_contaminacion.jpg" alt="Reducir contaminación">
-</section>
-
-</main>
-
-<footer>
-  <p>Proyecto Informática Ambiental</p>
-  <p>Autores: (Nombre del grupo)</p>
-  <p>2026</p>
-</footer>
-
-<!-- ANIMACIÓN AL HACER SCROLL -->
-<script>
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add('show');
-    }
-  });
-});
-
-const elements = document.querySelectorAll('.card');
-elements.forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+1.  **Badges:** Usamos escudos visuales (`shields.io`) para dar apariencia de software profesional.
+2.  **Alineación:** Etiquetas `<p align="center">` para romper la monotonía del texto a la izquierda.
+3.  **Tablas dinámicas:** Uso de alineación central en columnas de datos.
+4.  **Blockquotes dinámicos:** Implementación de `[!IMPORTANT]` para resaltar datos estadísticos.
+5.  **Multimedia:** Layout de dos columnas mediante etiquetas `<img>` con porcentajes de ancho.
+</details>
