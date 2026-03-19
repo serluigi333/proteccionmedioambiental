@@ -44,7 +44,7 @@ Es la emisión de ondas de radiofrecuencia producidas por las infraestructuras d
 ### Galería de Evidencia
 Como parte de los requisitos (al menos 4 imágenes en el proyecto total), aquí presentamos el impacto visual de esta sección:
 
-![Minería de Litio](https://images.unsplash.com/photo-1590487988256-9ed24133863e?auto=format&fit=crop&w=800&q=80)
+![Minería de Litio](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqOIqm-lIxknFyDcE07LmZZT7y-S9MV70uQ&s)
 *Figura 1: El impacto visual de la extracción de materiales para baterías y componentes.*
 
 ---
