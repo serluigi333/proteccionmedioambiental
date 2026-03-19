@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    /* --- ESTILOS GLOBALES --- */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background-color: #fcfcfc; 
+      color: #333;
+    }
+
+    /* --- ANIMACIÓN DEL MENÚ --- */
+    @keyframes deslizarDerecha {
+      0% { transform: translateX(-100%); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+
+    /* --- ESTILOS DEL MENÚ LATERAL (NAV) --- */
+    nav {
+      width: 270px;
+      background: linear-gradient(180deg, #004d40 0%, #00695c 100%);
+      padding: 30px 20px;
+      height: 100vh;
+      position: fixed;
+      overflow-y: auto;
+      box-shadow: 4px 0 15px rgba(0,0,0,0.15);
+      animation: deslizarDerecha 0.8s ease-out forwards;
+      color: white;
+      box-sizing: border-box;
+      /* Flexbox para empujar la leyenda hacia abajo */
+      display: flex;
+      flex-direction: column; 
+    }
+
+    nav h3 {
+      color: #e0f2f1;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 25px;
+      font-size: 1.4em;
+      border-bottom: 2px solid #26a69a;
+      padding-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    /* Estilo base de los enlaces del menú */
+    nav a {
+      display: block;
+      margin: 8px 0;
+      padding: 12px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.05);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    /* --- COLORES DE LOS AUTORES --- */
+    /* Sergio: Azul Claro */
+    .autor-sergio { color: #81d4fa; border-left: 4px solid #81d4fa; }
+    /* Julio: Naranja Claro */
+    .autor-julio { color: #ffcc80; border-left: 4px solid #ffcc80; }
+    /* Juan José: Morado */
+    .autor-juanjose { color: #8a36d2; border-left: 4px solid #8a36d2; }
+    /* Trabajo Conjunto: Gris */
+    .autor-general { color: #9b9b9b; border-left: 4px solid #9b9b9b; }
+
+    /* Efecto al pasar el ratón (Hover) */
+    nav a:hover {
+      background-color: #26a69a;
+      color: white !important; /* El texto se vuelve blanco al pasar el ratón para resaltar */
+      transform: translateX(10px); 
+      box-shadow: 0 4px 10px rgba(38, 166, 154, 0.4);
+    }
+
+    /* --- LEYENDA DE AUTORES --- */
+    .leyenda {
+      margin-top: 40px; /* Separación con los enlaces */
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .leyenda h4 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #e0f2f1;
+      font-size: 1.05em;
+    }
+
+    .autor-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 0.9em;
+      color: #e0f2f1;
+    }
+
+    /* Los círculos de color para la leyenda */
+    .circulo {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin-right: 12px;
+      flex-shrink: 0; /* Evita que el círculo se deforme */
+    }
+
+    .bg-sergio { background-color: #81d4fa; box-shadow: 0 0 5px #81d4fa; }
+    .bg-julio { background-color: #ffcc80; box-shadow: 0 0 5px #ffcc80; }
+    .bg-juanjose { background-color: #8a36d2; box-shadow: 0 0 5px #8a36d2; }
+    .bg-general { background-color: #9b9b9b; box-shadow: 0 0 5px #9b9b9b; }
+
+    /* --- ESTILOS DEL CONTENIDO PRINCIPAL (MAIN) --- */
+    main {
+      margin-left: 270px;
+      padding: 50px;
+      width: 100%;
+      max-width: 900px;
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h3>ÍNDICE</h3>
+    
+    <a href="index.html" class="autor-sergio">Inicio</a>
+    <a href="contaminacion.html" class="autor-sergio">1. Contaminación Ambiental</a>
+    <a href="residuos.html" class="autor-julio">2. Residuos Informáticos</a>
+    <a href="obsolescencia.html" class="autor-julio">3. Obsolescencia Programada</a>
+    <a href="ecologica.html" class="autor-juanjose">4. Informática Ecológica</a>
+    <a href="referencias.html" class="autor-general">5. Referencias y Autores</a>
+
+    <div class="leyenda">
+      <h4>Asignación de Tareas</h4>
+      <div class="autor-item">
+        <div class="circulo bg-sergio"></div>
+        <span>Sergio (Inicio, Punto 1)</span>
+      </div>
+      <div class="autor-item">
+        <div class="circulo bg-julio"></div>
+        <span>Julio (Puntos 2 y 3)</span>
+      </div>
+      <div class="autor-item">
+        <div class="circulo bg-juanjose"></div>
+        <span>Juan José (Punto 4)</span>
+      </div>
+            <div class="autor-item">
+        <div class="circulo bg-general"></div>
+        <span>Colaboración (Punto 5)</span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>
