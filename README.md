@@ -21,7 +21,7 @@ Este proyecto ha sido desarrollado de forma colaborativa siguiendo los criterios
 ## 📑 Índice de Contenidos
 Haz clic en los enlaces para acceder al desarrollo detallado de cada apartado:
 
-1.  **[¿Qué es la contaminación ambiental?](/_pages/contaminacion.md)**
+1.  **[¿Qué es la contaminación ambiental?](/_pages/contaminacion.html)**
     * Definición, huella de carbono y extracción de recursos.
 2.  **[Residuos Informáticos (E-Waste)](/_pages/residuos.md)**
     * Gestión de desechos y componentes tóxicos.
