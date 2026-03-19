@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: Informática Ambiental
+description: Hacia una tecnología sostenible y responsable.
+show_downloads: true
+# Característica Markdown avanzada: Uso de kramdown para atributos de CSS
+kramdown:
+  input: GFM
+  hard_wrap: false
