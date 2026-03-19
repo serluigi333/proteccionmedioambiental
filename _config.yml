@@ -1,3 +1,17 @@
-title: Informática Ambiental
-theme: minima
-paginate: 5
+# Información del Proyecto
+title: Informática Ambiental 🌍
+description: Un análisis profundo sobre la tecnología sostenible y la economía circular.
+show_downloads: true
+google_analytics: # Puedes añadir tu ID aquí si quieres métricas
+
+# Personalización Visual
+theme: jekyll-theme-cayman # Tema profesional con tonos verdes/azules ideal para medio ambiente
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Ajustes de GitHub Pages
+lsi: false
+incremental: false
+
+# Datos de los Autores (Aparecerán en los metadatos)
+author: "Equipo de Informática Ambiental"
+lang: es-ES
