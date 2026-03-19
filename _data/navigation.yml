@@ -1,12 +1,9 @@
-- title: Inicio
-  url: /index.md
-- title: Contaminación ambiental
-  url: /contaminacion.md
-- title: Residuos informáticos
-  url: /residuos.md
-- title: Obsolescencia programada
-  url: /obsolescencia.md
-- title: Informática ecológica
-  url: /informatica-ecologica.md
-- title: Referencias
-  url: /referencias.md
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Contaminación"
+    url: /contenidos/contaminacion.md
+  - title: "Residuos"
+    url: /contenidos/residuos.md
+  - title: "Obsolescencia"
+    url: /contenidos/obsolescencia.md
