@@ -1,19 +1,5 @@
-# Información del Proyecto
-title: Informática Ambiental 🌍
-description: Un análisis profundo sobre la tecnología sostenible y la economía circular.
-show_downloads: true
-
-# Configuración del Motor de Markdown (Indispensable para el índice)
-markdown: kramdown
-kramdown:
-  input: GFM                # GitHub Flavored Markdown
-  hard_wrap: false
-  auto_ids: true            # Genera IDs automáticos para los títulos (necesario para el TOC)
-  toc_levels: 1..3          # El índice incluirá títulos de nivel 1, 2 y 3
-
-# Personalización Visual
-theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
-
-# Ajustes de Idioma
-lang: es-ES
+title: Informática Ambiental
+description: Proyecto colaborativo sobre sostenibilidad tecnológica.
+theme: jekyll-theme-minimal # Puedes cambiarlo por el nombre del tema elegido
+show_downloads: false
+google_analytics:
