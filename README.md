@@ -1,54 +1,57 @@
 # 🌍 Proyecto: Informática Ambiental
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Versión-1.0.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/Licencia-CC_BY_4.0-green?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/badge/Colaborativo-Sí-orange?style=for-the-badge" alt="Collab">
-</p>
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Desplegado-success?style=for-the-badge&logo=github)](https://[tu-usuario].github.io/informatica-ambiental/)
+[![Licencia](https://img.shields.io/badge/Licencia-Creative%20Commons-blue?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
+
+Este repositorio contiene un proyecto de investigación detallado sobre el impacto de la tecnología en el medio ambiente, desarrollado para la asignatura de **Informática**. El sitio web está construido utilizando **Jekyll** y desplegado a través de **GitHub Pages** con un diseño personalizado de alto contraste.
 
 ---
 
 ## 👥 Autores y Colaboración
-Este proyecto ha sido desarrollado de forma colaborativa siguiendo los criterios de protección medioambiental en el ámbito tecnológico.
+Este es un trabajo colaborativo realizado por:
 
-* **Integrante 1** -
-* **Integrante 2** -
-
-> Este repositorio forma parte de una práctica grupal para la asignatura de Informática, centrada en la sostenibilidad y el impacto digital.
-
----
-
-## 📑 Índice de Contenidos
-Haz clic en los enlaces para acceder al desarrollo detallado de cada apartado:
-
-1.  **[¿Qué es la contaminación ambiental?](/_pages/contaminacion.html)**
-    * Definición, huella de carbono y extracción de recursos.
-2.  **[Residuos Informáticos (E-Waste)](/_pages/residuos.md)**
-    * Gestión de desechos y componentes tóxicos.
-3.  **[Obsolescencia Programada](/_pages/obsolescencia.md)**
-    * Tipos de obsolescencia y su impacto en el consumo.
-4.  **[Informática Ecológica (Green Computing)](/_pages/informatica_ecologica.md)**
-    * Estrategias de sostenibilidad y certificaciones verdes.
+* **Sergio** (`@[usuario-sergio]`): Coordinación, Diseño de Layout y Punto 1.
+* **Julio** (`@[usuario-julio]`): Investigación de e-Waste y Punto 2 y 3.
+* **Juan José** (`@[usuario-juanjose]`): Redacción de Informática Verde y Punto 4.
 
 ---
 
-## 🛠️ Tecnologías y Metodología
-Para la elaboración de este trabajo se han utilizado las siguientes herramientas avanzadas de **Markdown**:
+## 🛠️ Estructura del Proyecto
+El sitio web está dividido en secciones independientes para facilitar la lectura y el mantenimiento:
 
-* **Mermaid.js:** Para la creación de diagramas de flujo dinámicos.
-* **HTML Inline:** Para el diseño de layouts y alineación de medios.
-* **GitHub Alerts:** Para resaltar información crítica mediante `[!IMPORTANT]` y `[!TIP]`.
-* **Shields.io:** Para la generación de badges de estado profesional.
+| Archivo | Contenido | Responsable |
+| :--- | :--- | :--- |
+| `index.md` | Portada, Introducción e Índice General | Sergio |
+| `contaminacion.md` | Análisis de la huella de carbono y centros de datos | Sergio |
+| `residuos.md` | Gestión de residuos electrónicos (e-Waste) | Julio |
+| `obsolescencia.md` | El ciclo de vida de los productos tecnológicos | Julio |
+| `ecologica.md` | Soluciones y Green Computing | Juan José |
+| `referencias.md` | Bibliografía y fuentes consultadas | Grupo |
+
+---
+
+## 🚀 Características Avanzadas (Markdown & CSS)
+Para cumplir con los criterios de calificación, hemos implementado elementos no vistos en clase:
+* **Layouts Personalizados:** Uso de archivos YAML Front Matter para heredar estilos.
+* **CSS Dinámico:** Menú lateral con animaciones `@keyframes` y efectos `hover` avanzados.
+* **Tablas Optimizadas:** Diseño de tablas cebra con bordes redondeados y sombras.
+* **Footnotes:** Referencias cruzadas mediante notas al pie de página.
+* **Dark Mode Nativo:** Interfaz adaptada para reducir la fatiga visual.
+
+---
+
+## ⚙️ Instrucciones de Instalación
+Si deseas previsualizar este proyecto de forma local:
+1. Clona el repositorio: `git clone https://github.com/[tu-usuario]/informatica-ambiental.git`
+2. Asegúrate de tener **Jekyll** instalado.
+3. Ejecuta `bundle exec jekyll serve` y accede a `localhost:4000`.
 
 ---
 
 ## 📚 Referencias Principales
-* [Greenpeace Reports: Guide to Greener Electronics](https://www.greenpeace.org)
-* [The Global E-waste Statistics Partnership](https://globalewaste.org)
-* [United Nations Environment Programme (UNEP)](https://www.unep.org)
+* Greenpeace: *Guide to Greener Electronics*.
+* Directiva 2012/19/UE sobre residuos de aparatos eléctricos y electrónicos (RAEE).
+* Informes de sostenibilidad de los principales proveedores de servicios en la nube.
 
 ---
-
-<p align="center">
-  <i>"La mejor forma de predecir el futuro es crearlo de forma sostenible."</i>
-</p>
+> **Nota:** Este proyecto ha sido elaborado siguiendo estrictamente los criterios de originalidad, evitando el "copy-paste" y trabajando la información de forma crítica.
