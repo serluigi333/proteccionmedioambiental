@@ -10,9 +10,9 @@ Este repositorio contiene un proyecto de investigación detallado sobre el impac
 ## 👥 Autores y Colaboración
 Este es un trabajo colaborativo realizado por:
 
-* **Sergio** (`@[usuario-sergio]`): Coordinación, Diseño de Layout y Punto 1.
-* **Julio** (`@[usuario-julio]`): Investigación de e-Waste y Punto 2 y 3.
-* **Juan José** (`@[usuario-juanjose]`): Redacción de Informática Verde y Punto 4.
+* **Sergio** (`@[usuario-sergio]`): Diseño de Layout y Punto 1.
+* **Julio** (`@[usuario-julio]`): Puntos 2 y 3.
+* **Juan José** (`@[usuario-juanjose]`): Punto 4.
 
 ---
 
