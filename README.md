@@ -14,7 +14,6 @@ Este proyecto ha sido desarrollado de forma colaborativa siguiendo los criterios
 * **Integrante 1** -
 * **Integrante 2** -
 
-> [!NOTE]
 > Este repositorio forma parte de una práctica grupal para la asignatura de Informática, centrada en la sostenibilidad y el impacto digital.
 
 ---
