@@ -9,10 +9,11 @@ Bienvenidos a nuestro proyecto colaborativo sobre protección medioambiental enf
 
 Este proyecto ha sido desarrollado utilizando metodologías ágiles y control de versiones a través de GitHub, distribuyendo las tareas de la siguiente manera:
 
-| Colaborador | Rol en el Proyecto | Usuario de GitHub |
-| :--- | :--- | :--- |
-| **[Tu Nombre]** | Jefe de Proyecto / Redactor Principal | `@[tu_usuario]` |
-| **[Nombre Colaborador]** | Revisor / Investigador e-Waste | `@[usuario_colaborador]` |
+| Colaborador | Rol en el Proyecto|
+| :--- | :--- | 
+| **[Sergio Martín]** | Inicio / Contaminacion | 
+| **[Julio Gutierrez]** | Obsolescencia / Residuos e-Waste |
+| **[Juan Jose Fernandez]** | Informatica verde |
 
 ---
 
