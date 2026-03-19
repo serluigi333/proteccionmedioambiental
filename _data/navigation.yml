@@ -1,9 +1,0 @@
-main:
-  - title: "Inicio"
-    url: /
-  - title: "Contaminación"
-    url: /contenidos/contaminacion.md
-  - title: "Residuos"
-    url: /contenidos/residuos.md
-  - title: "Obsolescencia"
-    url: /contenidos/obsolescencia.md
