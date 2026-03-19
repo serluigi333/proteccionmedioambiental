@@ -52,17 +52,3 @@ La fabricación de un solo ordenador requiere:
 </div>
 
 ---
-
-## 🛠️ Estilo y Formato (CSS "Hack" para GitHub)
-
-Aunque GitHub no permite archivos `.css` externos por seguridad, podemos usar **HTML inline** para forzar estilos profesionales:
-
-<details>
-<summary><b>✨ Ver detalles técnicos de formato aplicado</b></summary>
-
-1.  **Badges:** Usamos escudos visuales (`shields.io`) para dar apariencia de software profesional.
-2.  **Alineación:** Etiquetas `<p align="center">` para romper la monotonía del texto a la izquierda.
-3.  **Tablas dinámicas:** Uso de alineación central en columnas de datos.
-4.  **Blockquotes dinámicos:** Implementación de `[!IMPORTANT]` para resaltar datos estadísticos.
-5.  **Multimedia:** Layout de dos columnas mediante etiquetas `<img>` con porcentajes de ancho.
-</details>
