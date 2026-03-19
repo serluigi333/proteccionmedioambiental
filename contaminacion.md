@@ -18,12 +18,16 @@ Los servidores que alojan nuestras redes sociales, correos y vídeos funcionan l
 1.  **Consumo Eléctrico:** Requieren una cantidad de energía equivalente a la de países enteros.
 2.  **Refrigeración:** Se necesitan millones de litros de agua o sistemas de aire acondicionado industriales para evitar que los procesadores se fundan.
 
-### Huella de Carbono Digital
-| Acción | Emisión de CO2 equivalente |
-| :--- | :--- |
-| **Un correo electrónico** | 4g (50g si tiene un adjunto grande) |
-| **Streaming de vídeo (HD)** | 1.5kg por hora aproximadamente |
-| **Búsqueda en la web** | 0.2g por cada clic |
+## 📊 Huella de Carbono Digital
+Esta tabla detalla el coste energético real de nuestra actividad en la red:
+
+| Actividad Digital | Emisión Estimada | Observaciones Técnicas |
+| :--- | :--- | :--- |
+| **Email estándar** | 4g de CO2 | El almacenamiento en servidor es el principal culpable. |
+| **Email con adjunto** | 50g de CO2 | Equivale a dejar una bombilla encendida 2 horas. |
+| **Streaming (YouTube/Netflix)** | 1.5kg CO2/hr | El tráfico de datos masivo calienta los routers globales. |
+| **Búsqueda en Google** | 0.2g de CO2 | Requiere milisegundos de miles de servidores. |
+| **Mensaje de WhatsApp** | 0.014g de CO2 | El texto plano es la opción más sostenible. |
 
 ---
 
