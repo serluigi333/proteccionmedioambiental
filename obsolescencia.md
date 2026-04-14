@@ -4,7 +4,7 @@ title: 5. Obsolescencia Programada
 ---
 
 # 5. Obsolescencia Programada: El Ciclo del Consumo Tecnológico 🔄  
-**Autor:** Julio Gutierrez 
+**Autor:** Julio Gutierrez
 **Estado:** Finalizado ✅  
 
 
