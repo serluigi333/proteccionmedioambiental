@@ -8,6 +8,7 @@ title: 4. Residuos Electrónicos (e-Waste)
 **Estado:** Finalizado ✅  
 
 Los residuos electrónicos (e-waste) representan uno de los mayores desafíos ambientales del siglo XXI. Se refieren a los dispositivos tecnológicos desechados, como ordenadores, móviles o televisores, que contienen materiales contaminantes y difíciles de gestionar. La informática verde busca reducir su impacto mediante prácticas sostenibles.
+<img width="1535" height="860" alt="image" src="https://github.com/user-attachments/assets/40421dac-76ea-4f18-b062-2f2d791a7bf0" />
 
 ## 🎯 4.1 Objetivos frente al e-Waste
 
