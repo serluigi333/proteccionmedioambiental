@@ -6,6 +6,7 @@ title: 5. Obsolescencia Programada
 # 5. Obsolescencia Programada: El Ciclo del Consumo Tecnológico 🔄  
 **Autor:** Julio Gutierrez 
 **Estado:** Finalizado ✅  
+<img width="689" height="496" alt="image" src="https://github.com/user-attachments/assets/ee39ff30-4ee9-4690-a544-79a0b0779673" />
 
 La obsolescencia programada es una práctica en la que los dispositivos tecnológicos son diseñados con una vida útil limitada, obligando a los usuarios a reemplazarlos con mayor frecuencia. Este fenómeno impacta directamente en el aumento de residuos electrónicos y el consumo de recursos.
 
