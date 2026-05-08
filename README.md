@@ -21,12 +21,12 @@ El sitio web está dividido en secciones independientes para facilitar la lectur
 
 | Archivo | Contenido | Responsable |
 | :--- | :--- | :--- |
-| `index.md` | Portada, Introducción e Índice General | Sergio |
-| `contaminacion.md` | Análisis de la huella de carbono y centros de datos | Sergio |
-| `residuos.md` | Gestión de residuos electrónicos (e-Waste) | Julio |
-| `obsolescencia.md` | El ciclo de vida de los productos tecnológicos | Julio |
-| `ecologica.md` | Soluciones y Green Computing | Juan José |
-| `referencias.md` | Bibliografía y fuentes consultadas | Grupo |
+| `index.html` | Portada, Introducción e Índice General | Sergio |
+| `contaminacion.html` | Análisis de la huella de carbono y centros de datos | Sergio |
+| `residuos.html` | Gestión de residuos electrónicos (e-Waste) | Julio |
+| `obsolescencia.html` | El ciclo de vida de los productos tecnológicos | Julio |
+| `ecologica.html` | Soluciones y Green Computing | Juan José |
+| `referencias.html` | Bibliografía y fuentes consultadas | Grupo |
 
 ---
 
