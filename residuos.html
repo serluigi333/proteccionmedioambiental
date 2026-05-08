@@ -3,116 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análisis sobre los residuos electrónicos (e-Waste) y su impacto ambiental en la sociedad digital.">
     <title>4. Residuos Electrónicos (e-Waste)</title>
+
     <style>
+        :root {
+            --primary-color: #2d5a27;
+            --secondary-color: #4caf50;
+            --bg-color: #f9fbf9;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            margin: 40px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
         }
-        h1, h2 {
-            color: #2c3e50;
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
+
+        header {
+            border-bottom: 2px solid var(--secondary-color);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 25px 0;
         }
-        table, th, td {
-            border: 1px solid #ccc;
-        }
+
         th, td {
-            padding: 10px;
+            padding: 12px;
+            border: 1px solid var(--border-color);
             text-align: left;
         }
+
         th {
-            background-color: #f4f4f4;
+            background-color: var(--primary-color);
+            color: white;
         }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        figure {
+            margin: 30px auto;
+            text-align: center;
+        }
+
         img {
             max-width: 100%;
-            height: auto;
-            margin: 20px 0;
+            border-radius: 10px;
         }
-        ul {
-            margin-left: 20px;
+
+        figcaption {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+
+        .status {
+            margin-top: 10px;
+        }
+
+        .highlight {
+            background-color: #f0f7f0;
+            border-left: 4px solid var(--secondary-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .references ul {
+            list-style-type: square;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
 
-<h1>4. Residuos Electrónicos: El Desafío Digital 🌿</h1>
-<p><strong>Autor:</strong> Julio Gutierrez</p>
-<p><strong>Estado:</strong> Finalizado ✅</p>
+<main class="container">
 
-<p>
-Los residuos electrónicos (e-waste) representan uno de los mayores desafíos ambientales del siglo XXI. Se refieren a los dispositivos tecnológicos desechados, como ordenadores, móviles o televisores, que contienen materiales contaminantes y difíciles de gestionar. La informática verde busca reducir su impacto mediante prácticas sostenibles.
-</p>
+    <header>
+        <h1>🌿 4. Residuos Electrónicos (e-Waste)</h1>
 
-<img src="https://github.com/user-attachments/assets/40421dac-76ea-4f18-b062-2f2d791a7bf0" alt="Residuos electrónicos">
+        <p><strong>Autor:</strong> Julio Gutiérrez</p>
+        <p class="status"><strong>Estado:</strong> Finalizado ✅</p>
 
-<h2>🎯 4.1 Objetivos frente al e-Waste</h2>
-<ul>
-    <li><strong>Reciclaje Responsable:</strong> Recuperar materiales como oro, cobre y aluminio.</li>
-    <li><strong>Reutilización:</strong> Dar una segunda vida a dispositivos funcionales.</li>
-    <li><strong>Reducción de Residuos:</strong> Disminuir la producción innecesaria de aparatos.</li>
-    <li><strong>Economía Circular:</strong> Reintegrar componentes en nuevos productos.</li>
-</ul>
+        <div class="highlight">
+            Los residuos electrónicos representan uno de los mayores desafíos ambientales del siglo XXI debido al aumento constante de dispositivos tecnológicos desechados.
+        </div>
+    </header>
 
-<h2>📊 Estrategias de Gestión de Residuos</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Estrategia Verde</th>
-            <th>Impacto Ambiental</th>
-            <th>Ejemplo de Aplicación</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Reciclaje Electrónico</td>
-            <td>Reduce la contaminación tóxica</td>
-            <td>Centros de reciclaje de móviles</td>
-        </tr>
-        <tr>
-            <td>Reacondicionamiento</td>
-            <td>Extiende la vida útil de dispositivos</td>
-            <td>Venta de ordenadores reacondicionados</td>
-        </tr>
-        <tr>
-            <td>Donación Tecnológica</td>
-            <td>Evita el desecho prematuro</td>
-            <td>Donación a escuelas</td>
-        </tr>
-        <tr>
-            <td>Diseño Modular</td>
-            <td>Facilita reparación y actualización</td>
-            <td>Móviles con piezas intercambiables</td>
-        </tr>
-    </tbody>
-</table>
+    <figure>
+        <img src="https://github.com/user-attachments/assets/40421dac-76ea-4f18-b062-2f2d791a7bf0" alt="Residuos electrónicos">
+        <figcaption>
+            Impacto ambiental generado por los residuos tecnológicos y electrónicos.
+        </figcaption>
+    </figure>
 
-<h2>⚡ 4.2 Impacto Ambiental del e-Waste</h2>
-<ul>
-    <li>Contienen sustancias peligrosas como plomo, mercurio o cadmio que contaminan el suelo y el agua.</li>
-    <li>Generan emisiones contaminantes al ser incinerados.</li>
-    <li>Provocan daños a la salud humana.</li>
-    <li>Incrementan la explotación minera.</li>
-</ul>
+    <section>
+        <h2>🎯 4.1 Objetivos frente al e-Waste</h2>
 
-<h2>🛠️ 4.3 Soluciones Sostenibles</h2>
-<ul>
-    <li><strong>Puntos Limpios:</strong> Espacios para depositar residuos electrónicos.</li>
-    <li><strong>Legislación Ambiental:</strong> Normativas que obligan a reciclar dispositivos.</li>
-    <li><strong>Concienciación Social:</strong> Educación sobre consumo responsable.</li>
-    <li><strong>Empresas Responsables:</strong> Programas de recogida de dispositivos antiguos.</li>
-</ul>
+        <ul>
+            <li><strong>Reciclaje Responsable:</strong> Recuperar materiales como oro, cobre y aluminio.</li>
 
-<h2>🔗 Referencias de esta sección</h2>
-<ul>
-    <li>International Federation of Global & Green ICT (2025)</li>
-    <li>The Climate Group: SMARTer2030</li>
-    <li>Naciones Unidas: Global E-waste Monitor</li>
-</ul>
+            <li><strong>Reutilización:</strong> Dar una segunda vida a dispositivos funcionales.</li>
+
+            <li><strong>Reducción de Residuos:</strong> Disminuir la producción innecesaria de aparatos.</li>
+
+            <li><strong>Economía Circular:</strong> Reintegrar componentes en nuevos productos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📊 Estrategias de Gestión de Residuos</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Estrategia Verde</th>
+                    <th>Impacto Ambiental</th>
+                    <th>Ejemplo de Aplicación</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Reciclaje Electrónico</td>
+                    <td>Reduce la contaminación tóxica</td>
+                    <td>Centros de reciclaje de móviles</td>
+                </tr>
+
+                <tr>
+                    <td>Reacondicionamiento</td>
+                    <td>Extiende la vida útil de dispositivos</td>
+                    <td>Venta de ordenadores reacondicionados</td>
+                </tr>
+
+                <tr>
+                    <td>Donación Tecnológica</td>
+                    <td>Evita el desecho prematuro</td>
+                    <td>Donación a escuelas</td>
+                </tr>
+
+                <tr>
+                    <td>Diseño Modular</td>
+                    <td>Facilita reparación y actualización</td>
+                    <td>Móviles con piezas intercambiables</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>⚡ 4.2 Impacto Ambiental del e-Waste</h2>
+
+        <ul>
+            <li>Contienen sustancias peligrosas como plomo, mercurio o cadmio que contaminan el suelo y el agua.</li>
+
+            <li>Generan emisiones contaminantes al ser incinerados.</li>
+
+            <li>Provocan daños a la salud humana.</li>
+
+            <li>Incrementan la explotación minera.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🛠️ 4.3 Soluciones Sostenibles</h2>
+
+        <ul>
+            <li><strong>Puntos Limpios:</strong> Espacios para depositar residuos electrónicos.</li>
+
+            <li><strong>Legislación Ambiental:</strong> Normativas que obligan a reciclar dispositivos.</li>
+
+            <li><strong>Concienciación Social:</strong> Educación sobre consumo responsable.</li>
+
+            <li><strong>Empresas Responsables:</strong> Programas de recogida de dispositivos antiguos.</li>
+        </ul>
+    </section>
+
+    <section class="references">
+        <h2>🔗 Referencias</h2>
+
+        <ul>
+            <li>International Federation of Global & Green ICT (2025)</li>
+            <li>The Climate Group — SMARTer2030</li>
+            <li>Naciones Unidas — Global E-waste Monitor</li>
+        </ul>
+    </section>
+
+</main>
 
 </body>
 </html>
