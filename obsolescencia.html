@@ -3,122 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análisis sobre la obsolescencia programada y su impacto ambiental en la tecnología moderna.">
     <title>5. Obsolescencia Programada</title>
+
     <style>
+        :root {
+            --primary-color: #2d5a27;
+            --secondary-color: #4caf50;
+            --bg-color: #f9fbf9;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            margin: 40px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
         }
-        h1, h2, h3 {
-            color: #2c3e50;
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
+
+        header {
+            border-bottom: 2px solid var(--secondary-color);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 25px 0;
         }
-        table, th, td {
-            border: 1px solid #ccc;
-        }
+
         th, td {
-            padding: 10px;
+            padding: 12px;
+            border: 1px solid var(--border-color);
             text-align: left;
         }
+
         th {
-            background-color: #f4f4f4;
+            background-color: var(--primary-color);
+            color: white;
         }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        figure {
+            margin: 30px auto;
+            text-align: center;
+        }
+
         img {
             max-width: 100%;
-            height: auto;
-            margin: 20px 0;
+            border-radius: 10px;
         }
-        ul {
-            margin-left: 20px;
+
+        figcaption {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+
+        .status {
+            margin-top: 10px;
+        }
+
+        .highlight {
+            background-color: #f0f7f0;
+            border-left: 4px solid var(--secondary-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .references ul {
+            list-style-type: square;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
 
-<h1>5. Obsolescencia Programada: El Ciclo del Consumo Tecnológico 🔄</h1>
-<p><strong>Autor:</strong> Julio Gutierrez</p>
-<p><strong>Estado:</strong> Finalizado ✅</p>
+<main class="container">
 
-<p>
-La obsolescencia programada es una práctica en la que los dispositivos tecnológicos son diseñados con una vida útil limitada, obligando a los usuarios a reemplazarlos con mayor frecuencia. Este fenómeno impacta directamente en el aumento de residuos electrónicos y el consumo de recursos.
-</p>
+    <header>
+        <h1>🔄 5. Obsolescencia Programada</h1>
 
-<img src="https://github.com/user-attachments/assets/ee39ff30-4ee9-4690-a544-79a0b0779673" alt="Obsolescencia Programada">
+        <p><strong>Autor:</strong> Julio Gutiérrez</p>
+        <p class="status"><strong>Estado:</strong> Finalizado ✅</p>
 
-<h2>🎯 5.1 Objetivos de Análisis</h2>
-<ul>
-    <li>Identificar prácticas de diseño limitante.</li>
-    <li>Reducir el consumo innecesario.</li>
-    <li>Fomentar productos duraderos.</li>
-    <li>Promover el derecho a reparar.</li>
-</ul>
+        <div class="highlight">
+            La obsolescencia programada es una práctica en la que los dispositivos tecnológicos son diseñados con una vida útil limitada, obligando a los usuarios a reemplazarlos con mayor frecuencia.
+        </div>
+    </header>
 
-<h2>📊 Estrategias frente a la Obsolescencia</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Estrategia</th>
-            <th>Impacto Ambiental</th>
-            <th>Ejemplo</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Derecho a Reparar</td>
-            <td>Reduce residuos y consumo</td>
-            <td>Reparación de móviles</td>
-        </tr>
-        <tr>
-            <td>Actualizaciones Sostenibles</td>
-            <td>Prolonga la vida útil del software</td>
-            <td>Sistemas operativos optimizados</td>
-        </tr>
-        <tr>
-            <td>Diseño Modular</td>
-            <td>Facilita reemplazo de piezas</td>
-            <td>Portátiles desmontables</td>
-        </tr>
-        <tr>
-            <td>Garantías Extendidas</td>
-            <td>Incentiva productos de calidad</td>
-            <td>Garantías de 5 años</td>
-        </tr>
-    </tbody>
-</table>
+    <figure>
+        <img src="https://github.com/user-attachments/assets/ee39ff30-4ee9-4690-a544-79a0b0779673" alt="Obsolescencia Programada">
+        <figcaption>
+            Representación del ciclo de consumo tecnológico y reemplazo de dispositivos.
+        </figcaption>
+    </figure>
 
-<h2>⚡ 5.2 Tipos de Obsolescencia</h2>
-<ul>
-    <li><strong>Funcional:</strong> El dispositivo deja de funcionar correctamente.</li>
-    <li><strong>Tecnológica:</strong> Queda desactualizado frente a nuevas versiones.</li>
-    <li><strong>Psicológica:</strong> El usuario lo percibe como “antiguo”.</li>
-</ul>
+    <section>
+        <h2>🎯 5.1 Objetivos de Análisis</h2>
 
-<h2>🛠️ 5.3 Soluciones y Alternativas</h2>
-<ul>
-    <li>Comprar productos duraderos y reparables.</li>
-    <li>Apoyar marcas sostenibles.</li>
-    <li>Usar software libre o ligero.</li>
-    <li>Reparar antes de reemplazar.</li>
-</ul>
+        <ul>
+            <li>Identificar prácticas de diseño limitante.</li>
+            <li>Reducir el consumo innecesario.</li>
+            <li>Fomentar productos duraderos.</li>
+            <li>Promover el derecho a reparar.</li>
+        </ul>
+    </section>
 
-<h2>🌍 Impacto Global</h2>
-<ul>
-    <li>Aumenta el e-waste global.</li>
-    <li>Incrementa la huella de carbono.</li>
-    <li>Fomenta el consumo excesivo.</li>
-</ul>
+    <section>
+        <h2>📊 Estrategias frente a la Obsolescencia</h2>
 
-<h2>🔗 Referencias de esta sección</h2>
-<ul>
-    <li>Parlamento Europeo: Derecho a Reparar</li>
-    <li>Greenpeace: Electrónica Sostenible</li>
-    <li>Gartner: Tecnología Sostenible</li>
-</ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Estrategia</th>
+                    <th>Impacto Ambiental</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Derecho a Reparar</td>
+                    <td>Reduce residuos y consumo</td>
+                    <td>Reparación de móviles</td>
+                </tr>
+
+                <tr>
+                    <td>Actualizaciones Sostenibles</td>
+                    <td>Prolonga la vida útil del software</td>
+                    <td>Sistemas operativos optimizados</td>
+                </tr>
+
+                <tr>
+                    <td>Diseño Modular</td>
+                    <td>Facilita reemplazo de piezas</td>
+                    <td>Portátiles desmontables</td>
+                </tr>
+
+                <tr>
+                    <td>Garantías Extendidas</td>
+                    <td>Incentiva productos de calidad</td>
+                    <td>Garantías de 5 años</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>⚡ 5.2 Tipos de Obsolescencia</h2>
+
+        <ul>
+            <li><strong>Funcional:</strong> El dispositivo deja de funcionar correctamente.</li>
+
+            <li><strong>Tecnológica:</strong> Queda desactualizado frente a nuevas versiones.</li>
+
+            <li><strong>Psicológica:</strong> El usuario lo percibe como “antiguo”.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🛠️ 5.3 Soluciones y Alternativas</h2>
+
+        <ul>
+            <li>Comprar productos duraderos y reparables.</li>
+
+            <li>Apoyar marcas sostenibles.</li>
+
+            <li>Usar software libre o ligero.</li>
+
+            <li>Reparar antes de reemplazar.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🌍 Impacto Global</h2>
+
+        <ul>
+            <li>Aumenta el e-waste global.</li>
+
+            <li>Incrementa la huella de carbono.</li>
+
+            <li>Fomenta el consumo excesivo.</li>
+        </ul>
+    </section>
+
+    <section class="references">
+        <h2>🔗 Referencias</h2>
+
+        <ul>
+            <li>Parlamento Europeo — Derecho a Reparar</li>
+            <li>Greenpeace — Electrónica Sostenible</li>
+            <li>Gartner — Tecnología Sostenible</li>
+        </ul>
+    </section>
+
+</main>
 
 </body>
 </html>
